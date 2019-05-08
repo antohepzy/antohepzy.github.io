@@ -3,11 +3,7 @@
     transform: translate(-20%, -1%);
     height: 90vh;
 }
-@media only screen and (max-width: 900px) {
-    #particle {
-        display: none;
-    }
-}
+
 .page-header-image {
     height: 100%;
     width: auto;
@@ -63,6 +59,11 @@
 .carousel {
   box-shadow: 0 1.5rem 4rem rgba(41, 152, 255, 0.35); 
 }
+.row p{
+    margin-left: 5rem;
+    font-size:1.5rem; 
+    font-family:'Libre Baskerville';
+}
 
 .about-image {
   width: 100%; }
@@ -98,6 +99,30 @@
     .contact-sign {
         border: none;
         margin: 2rem .5rem;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .row p{
+        font-size: .5rem;
+        margin-left: 1rem;
+    }
+    .image-size{
+        height: 20rem;
+        
+    }
+    .card-title,.card-text{
+        font-size:.5rem;
+    }
+    
+    h2{
+        font-size: 1rem;
+    }
+    #email-button {
+        font-size: .6rem;
+    }
+    .footer{
+        font-size: .8rem;
     }
 }
 #email-button {
